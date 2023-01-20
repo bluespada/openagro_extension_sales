@@ -10,6 +10,10 @@ pub fn metadata() -> ExtensionMetadata {
         author: "bluespada".to_string(),
         version: "1.0.0".to_string(),
         depends_on: vec![],
+        data: vec![
+            include_str!("../assets/some.js").to_string(),
+            include_str!("../views/sale.xml").to_string(),
+        ],
         application: true,
     }
 }

@@ -1,0 +1,13 @@
+<openagro>
+  <form id="sale.order.form.view" model="ir.ui.view">
+    <field name="name">sale_order_form_view</field>
+    <field name="model">sale.order</field>
+    <field name="arch">
+      <form>
+        <div class="oa_title">
+          <field name="number"/>
+        </div>
+      </form>
+    </field>
+  </form>
+</openagro>
